@@ -1,0 +1,228 @@
+body, html {
+	/** background-color: #C0C0C0; **/
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial , sans-serif;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+.page_title {
+	color: #C0C0C0;
+	font-size: 24px;
+	text-decoration: none;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+/** navigation menu **/
+#primary_nav {
+	margin-top: 15px;
+}
+
+#primary_nav ul {
+	list-style: none;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#primary_nav ul a {
+	display: block;
+	color: #FF0000; /** red **/
+	text-decoration: none;
+	padding: 0 10px;
+    font-size: 14px;
+    line-height:32px;
+}
+
+#primary_nav ul li {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#primary_nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0;
+}
+
+#primary_nav ul ul li {
+    float: none;
+    width: 200px;
+}
+
+#primary_nav ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#primary_nav ul ul ul {
+    top: 0;
+    left: 100%;
+}
+#primary_nav ul a:hover {
+	color: #fff; /** red **/
+}
+
+#primary_nav ul li:hover > ul {
+	display: block;
+}
+
+.page-content > .row {
+  	margin-left: 0px !important;
+  	margin-right: 0px !important;
+ 	margin-top: 30px;
+}
+
+.login_box {
+	width: 40%;
+	margin-top: 50px;
+	background-color: #FFFFFF;
+	border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    border-radius: 5px;
+	border-style: solid; 
+	margin: 0 auto;
+}
+
+.div_background {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border-style: solid;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding: 10px;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 2px solid #eee;
+    border-bottom: 2px solid #eee; 
+    margin-left: 30px;
+}
+
+/** footer **/
+
+footer {
+	background-color: #C0C0C0;
+	box-shadow:inset 0px 0px 3px #111;
+    /** color: #fff; **/
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0px 10px 0px;
+    bottom: 0px;
+   	/** position: fixed; **/ 
+   	width: 100%;
+}
+
+footer .copy{
+   font-size:13px;
+   margin:15px 0px;
+}
+
+.footer_title {
+	color: 	#FF0000; /** red **/
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.footer_link_text {
+	color: #0E0E0E;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+footer ul {
+	text-decoration: none;
+	list-style: none;
+}
+
+footer ul a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 16px;
+}
+
+footer ul a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+/** header **/
+.header {
+	background-color: #0E0E0E;
+	height: 50px;
+}
+
+.job_title {
+	color: #0E0E0E;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.job_title:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.details_class {
+	color: #0E0E0E;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.job_title_static {
+	color: #0E0E0E;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.detail_separator {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.job_detail {
+	color: #0E0E0E;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.my_list {
+	list-style: none;
+	font-size: 16px;
+	padding-left: 0;
+}
+
+#job_search {
+	background-image: url( "../images/job-searching.jpg" );
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.search_text {
+	font-size: 18px;
+	color: #FF0000;
+}
+
+.forgot {
+	text-underline: none;
+}
+
+.forgot-text {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
